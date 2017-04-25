@@ -18,3 +18,5 @@ C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\Kendo
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\BL\bin\Debug\Castle.Windsor.xml
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\BL\bin\Debug\EntityFramework.xml
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\BL\bin\Debug\Riganti.Utils.Infrastructure.Core.pdb
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\BL\bin\Debug\Riganti.Utils.Infrastructure.EntityFramework.pdb

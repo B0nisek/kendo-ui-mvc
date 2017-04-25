@@ -25,11 +25,7 @@ namespace BL.Bootstrap
                        .ImplementedBy<AppUnitOfWorkProvider>()
                        .LifestyleSingleton(),
 
-                   Component.For<IDateTimeProvider>()
-                       .ImplementedBy<AppDateTimeProvider>()
-                       .LifestyleSingleton(),
-
-                    Component.For<IUnitOfWorkRegistry>()
+                   Component.For<IUnitOfWorkRegistry>()
                        .Instance(new HttpContextUnitOfWorkRegistry(new ThreadLocalUnitOfWorkRegistry()))
                        .LifestyleSingleton(),
 
@@ -51,8 +47,8 @@ namespace BL.Bootstrap
                        .LifestyleTransient(),
 
                    Component.For<ICustomerFacade>()
-                        .ImplementedBy(typeof(CustomerFacade))
-                        .LifeStyle.Singleton
+                       .ImplementedBy<CustomerFacade>()
+                       .LifestyleSingleton()
 
                    //Classes.FromThisAssembly()
                    //    .InNamespace("BL.Facade")

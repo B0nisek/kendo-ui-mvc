@@ -6,7 +6,7 @@ namespace BL.Repository
 {
     public class AddressRepository : EntityFrameworkRepository<Address, int>
     {
-        public AddressRepository(IUnitOfWorkProvider provider, IDateTimeProvider dateTimeProvider) : base(provider, dateTimeProvider)
+        public AddressRepository(IUnitOfWorkProvider provider) : base(provider)
         {
         }
     }

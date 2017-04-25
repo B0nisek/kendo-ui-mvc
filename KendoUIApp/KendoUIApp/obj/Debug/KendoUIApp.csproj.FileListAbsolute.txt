@@ -58,3 +58,5 @@ C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\Kendo
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\AutoMapper.dll
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\BL.pdb
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\AutoMapper.xml
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Riganti.Utils.Infrastructure.Core.pdb
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Riganti.Utils.Infrastructure.EntityFramework.pdb
