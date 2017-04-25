@@ -6,6 +6,5 @@ C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\Kendo
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\DAL\bin\Debug\Riganti.Utils.Infrastructure.Core.dll
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\DAL\bin\Debug\EntityFramework.xml
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\DAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\DAL\obj\Debug\DAL.dll
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\DAL\obj\Debug\DAL.pdb

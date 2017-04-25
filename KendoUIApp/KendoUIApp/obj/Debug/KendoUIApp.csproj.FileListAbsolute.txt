@@ -49,3 +49,12 @@ C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\Kendo
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\obj\Debug\KendoUIApp.csprojResolveAssemblyReference.cache
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\obj\Debug\KendoUIApp.dll
 C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\obj\Debug\KendoUIApp.pdb
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Castle.Core.dll
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Castle.Windsor.dll
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Castle.Core.xml
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Castle.Windsor.xml
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\BL.dll
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\Riganti.Utils.Infrastructure.EntityFramework.dll
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\AutoMapper.dll
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\BL.pdb
+C:\Users\bony\Documents\Visual Studio 2015\Projects\kendo-omg\kendo-ui-mvc\KendoUIApp\KendoUIApp\bin\AutoMapper.xml
