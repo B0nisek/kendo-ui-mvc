@@ -1,6 +1,16 @@
 ﻿
 @model IEnumerable<BL.DTO.CustomerDTO>
 
+<style>
+    .k-edit-cell input {
+        width: 100%;
+    }
+
+    .k-grid-edit-row input {
+        width: 100%;
+    }
+</style>
+
 @(Html.Kendo().Grid(Model)
       .Name("Grid")
       .Columns(columns =>
