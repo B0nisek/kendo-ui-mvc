@@ -10,7 +10,7 @@ namespace DAL
         {
             var ad1 = new Address()
             {
-                Id = 0,
+                ID = 0,
                 City = "Brno",
                 Street = "Ceska",
                 ZipCode = "602 00"
@@ -18,7 +18,7 @@ namespace DAL
 
             var ad2 = new Address()
             {
-                Id = 1,
+                ID = 1,
                 City = "Ostrava",
                 Street = "Ceska",
                 ZipCode = "265 35"
@@ -26,7 +26,7 @@ namespace DAL
 
             var ad3 = new Address()
             {
-                Id = 2,
+                ID = 2,
                 City = "Martinkovice",
                 Street = "Martinkovicka",
                 ZipCode = "549 73"
@@ -34,7 +34,7 @@ namespace DAL
 
             var ad4 = new Address()
             {
-                Id = 3,
+                ID = 3,
                 City = "Broumov",
                 Street = "Mala Kolonie",
                 ZipCode = "550 01"
@@ -42,7 +42,7 @@ namespace DAL
 
             var ad5 = new Address()
             {
-                Id = 4,
+                ID = 4,
                 City = "Hradec Kralove",
                 Street = "Jupiterska",
                 ZipCode = "165 24"
@@ -50,7 +50,7 @@ namespace DAL
 
             var ad6 = new Address()
             {
-                Id = 5,
+                ID = 5,
                 City = "Znojmo",
                 Street = "Hurikan",
                 ZipCode = "759 63"
@@ -58,7 +58,7 @@ namespace DAL
 
             var ad7 = new Address()
             {
-                Id = 6,
+                ID = 6,
                 City = "Molitan",
                 Street = "Sultan",
                 ZipCode = "547 86"
@@ -66,7 +66,7 @@ namespace DAL
 
             var ad8 = new Address()
             {
-                Id = 7,
+                ID = 7,
                 City = "Kulihrob",
                 Street = "Maskerska",
                 ZipCode = "563 89"
@@ -104,7 +104,7 @@ namespace DAL
 
             var c1 = new Customer()
             {
-                Id = 0,
+                ID = 0,
                 Name = "Klaun",
                 Surname = "Sasek",
                 Addresses = l1,
@@ -114,7 +114,7 @@ namespace DAL
 
             var c2 = new Customer()
             {
-                Id = 1,
+                ID = 1,
                 Name = "Hrobnik",
                 Surname = "Pepa",
                 Addresses = l2,
@@ -124,7 +124,7 @@ namespace DAL
 
             var c3 = new Customer()
             {
-                Id = 2,
+                ID = 2,
                 Name = "Kulecnik",
                 Surname = "Skoda",
                 Addresses = l3,
@@ -134,7 +134,7 @@ namespace DAL
 
             var c4 = new Customer()
             {
-                Id = 3,
+                ID = 3,
                 Name = "Hlavoun",
                 Surname = "Velky",
                 Addresses = l4,
@@ -144,7 +144,7 @@ namespace DAL
 
             var c5 = new Customer()
             {
-                Id = 4,
+                ID = 4,
                 Name = "Ahoj",
                 Surname = "Tyranosaurus",
                 Addresses = l4,

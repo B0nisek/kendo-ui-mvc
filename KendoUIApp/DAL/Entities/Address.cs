@@ -9,7 +9,7 @@ namespace DAL.Entities
         {
             Customers = new HashSet<Customer>();
         }
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
         public string ZipCode { get; set; }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{0C5335EA-1E5F-4961-8B9B-AEFBB89CB2EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riganti.Utils.Infrastructure.Core", "..\..\..\DemoEshop\Riganti.Utils.Infrastructure.Core\Riganti.Utils.Infrastructure.Core.csproj", "{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riganti.Utils.Infrastructure.EntityFramework", "..\..\..\DemoEshop\Riganti.Utils.Infrastructure.EntityFramework\Riganti.Utils.Infrastructure.EntityFramework.csproj", "{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0C5335EA-1E5F-4961-8B9B-AEFBB89CB2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C5335EA-1E5F-4961-8B9B-AEFBB89CB2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C5335EA-1E5F-4961-8B9B-AEFBB89CB2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA57E7A-0552-4B0A-BF69-BD27CCE9F608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0AB05C-4934-43CE-BC53-3BEB9FD8BFE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

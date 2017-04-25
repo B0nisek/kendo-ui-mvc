@@ -8,7 +8,12 @@ namespace KendoUIApp.Controllers
 {
     public class CustomerController : Controller
     {
-        public ICustomerFacade customerFacade { get; set; }
+        private readonly ICustomerFacade customerFacade;
+
+        public CustomerController(ICustomerFacade customerFacade)
+        {
+            this.customerFacade = customerFacade;
+        }
 
         public ActionResult Index()
         {

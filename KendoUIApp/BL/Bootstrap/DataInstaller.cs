@@ -24,7 +24,15 @@ namespace BL.Bootstrap
                    Component.For<IUnitOfWorkProvider>()
                        .ImplementedBy<AppUnitOfWorkProvider>()
                        .LifestyleSingleton(),
-                   
+
+                   Component.For<IDateTimeProvider>()
+                       .ImplementedBy<AppDateTimeProvider>()
+                       .LifestyleSingleton(),
+
+                    Component.For<IUnitOfWorkRegistry>()
+                       .Instance(new HttpContextUnitOfWorkRegistry(new ThreadLocalUnitOfWorkRegistry()))
+                       .LifestyleSingleton(),
+
                    Component.For(typeof(IRepository<,>))
                        .ImplementedBy(typeof(EntityFrameworkRepository<,>))
                        .LifestyleTransient(),
