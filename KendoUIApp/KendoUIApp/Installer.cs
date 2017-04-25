@@ -12,7 +12,9 @@ namespace KendoUIApp
             container.Register(
                 Classes.FromThisAssembly()
                     .BasedOn<IController>()
-                    .LifestyleTransient()
+                    .If(t => t.Name.EndsWith("Controller"))
+                    .If(t => t.Namespace.StartsWith("KendoUIApp.Controllers"))
+                    .Configure(c => c.LifestylePerWebRequest())
                     );
         }
     }

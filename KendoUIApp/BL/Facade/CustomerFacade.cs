@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace BL.Facade
 {
-    public class CustomerFacade
+    public class CustomerFacade : ICustomerFacade
     {
         private readonly ICustomerService customerService;
 

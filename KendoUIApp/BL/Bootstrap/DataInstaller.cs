@@ -42,11 +42,13 @@ namespace BL.Bootstrap
                        .WithServiceDefaultInterfaces()
                        .LifestyleTransient(),
 
-                    Component.For<CustomerFacade>(),
+                   Component.For<ICustomerFacade>()
+                        .ImplementedBy(typeof(CustomerFacade))
+                        .LifeStyle.Singleton
 
-                    Classes.FromThisAssembly()
-                        .InNamespace("BL.Facade")
-                        .LifestyleTransient()
+                   //Classes.FromThisAssembly()
+                   //    .InNamespace("BL.Facade")
+                   //    .LifestyleTransient()
                );
 
             Mapping.ConfigureMapping();
