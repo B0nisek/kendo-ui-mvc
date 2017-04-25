@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<BL.DTO.CustomerDTO>
+
+@(Html.Kendo().Grid(Model)
+      .Name("Grid")
+      .Columns(columns =>
+      {
+        columns.Bound(c => c.Name);
+        columns.Bound(c => c.Surname);
+        columns.Bound(c => c.IC);
+        columns.Bound(c => c.DIC);
+        columns.Command(command => { command.Edit(); command.Destroy(); }).Width(180);
+      })
+      .ToolBar(toolbar => {
+            toolbar.Create();
+      })
+      .Editable(editable => editable.Mode(GridEditMode.InLine))
+      .Pageable()
+      .Scrollable(scrollable => scrollable.Enabled(false))
+      .DataSource(dataSource => dataSource
+        .Server()
+        .Model(model => model.Id(p => p.Id))
+        .Read(read => read.Action("Index", "Customer"))
+        .Create("Customers_Create", "Customer")
+        .Update("Customers_Update", "Customer")
+        .Destroy("Customers_Destroy", "Customer")
+        .PageSize(5)
+      )
+)

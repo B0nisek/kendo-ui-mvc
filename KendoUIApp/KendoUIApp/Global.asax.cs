@@ -20,7 +20,7 @@ namespace KendoUIApp
             BootstrapContainer();
         }
 
-        private static void BootstrapContainer()
+        private void BootstrapContainer()
         {
             container = new WindsorContainer();
 

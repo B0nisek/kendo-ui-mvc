@@ -8,8 +8,7 @@ using BL.AppInfrastructure;
 using Riganti.Utils.Infrastructure.EntityFramework;
 using BL.Services;
 using DAL;
-using BL.Service.Customers;
-using BL.Service.Addresses;
+using BL.Facade;
 
 namespace BL.Bootstrap
 {
@@ -43,11 +42,11 @@ namespace BL.Bootstrap
                        .WithServiceDefaultInterfaces()
                        .LifestyleTransient(),
 
+                    Component.For<CustomerFacade>(),
+
                     Classes.FromThisAssembly()
                         .InNamespace("BL.Facade")
                         .LifestyleTransient()
-               //Component.For<IWindsorContainer>()
-               //    .Instance(container)
                );
 
             Mapping.ConfigureMapping();
